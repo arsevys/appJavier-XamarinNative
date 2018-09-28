@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+	<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+
+	android:background="#ffbbe6c3">
+	<TextView
+		android:text="Probando Funcionalidades de Xamarin"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView1"
+		android:textAlignment="center" 
+           />
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/nom"
+		android:hint="Ingresar Nombre" />
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/pass"
+		android:hint="Ingresar contraseña" />
+	<Button
+		android:text="Ingresar"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/go" />
+	
+	</LinearLayout>
